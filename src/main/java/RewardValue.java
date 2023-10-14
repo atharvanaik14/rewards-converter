@@ -6,7 +6,7 @@ public class RewardValue {
     }
 
     RewardValue(int miles) {
-        this.cash = convertCashValue(miles);
+        this.cash = convertMilesValue(miles);
     }
 
 
